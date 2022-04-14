@@ -79,5 +79,6 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    `gatsby-plugin-netlify`
   ].filter(Boolean),
 }
