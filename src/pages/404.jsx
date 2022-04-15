@@ -5,7 +5,7 @@ const NotFound = () => (
   <Layout>
     <div style={{ textAlign: `center` }}>
       <h1>404</h1>
-      <p>Page not found.</p>
+      <p>You caught us bluffing. Page not found.</p>
     </div>
   </Layout>
 )

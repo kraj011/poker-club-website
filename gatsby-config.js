@@ -11,10 +11,10 @@ module.exports = {
     siteTitleAlt: `CMU Poker Club`,
     siteHeadline: `CMU Poker Club`,
     siteUrl: `https://cmupoker.club`,
-    siteDescription: ``,
+    siteDescription: `Poker club at Carnegie Mellon University`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: ``,
+    siteImage: `/logo.jpg`,
+    author: `David Krajewski`,
   },
   plugins: [
     {
@@ -22,9 +22,11 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Sponsors`, slug: `/sponsors` },
-          { name: `Art`, slug: `/art` },
+          // { name: `Art`, slug: `/art` },
           { name: `About`, slug: `/about` },
+          { name: `Sponsors`, slug: `/sponsors` },
+          { name: `Calendar`, slug: `/calendar` },
+          { name: `Contact`, slug: `/contact` },
         ],
       },
     },
@@ -79,6 +81,5 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-    `gatsby-plugin-netlify`
   ].filter(Boolean),
 }
