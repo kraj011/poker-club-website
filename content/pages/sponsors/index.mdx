@@ -6,8 +6,37 @@ custom: true
 cover: "./art-cover-image.jpg"
 ---
 
+import SponsorsComponent from "./SponsorsComponent.jsx";
+
 <div style={{ margin: `0 auto`, maxWidth: `70ch`, padding: `2rem` }}>
 
 <h1 data-testid="page-title">Sponsors</h1>
+<div>
+	<h3 data-testid="page-title" style="color: #A0B2C6; text-align: center">
+		Platinum
+	</h3>
+</div>
+<hr />
+<div>
+	<h3 data-testid="page-title" style="color: #D4AF37; text-align: center">
+		Gold
+	</h3>
+	<SponsorsComponent images={["images/imc-logo.png"]} imageSize="50%" />
+</div>
 
+<hr />
+<div>
+	<h3 data-testid="page-title" style="color: silver; text-align: center">
+		Silver
+	</h3>
+</div>
+
+<hr />
+<div>
+	<h3 data-testid="page-title" style="color: #CD7F32; text-align: center">
+		Bronze
+	</h3>
+</div>
+
+<hr />
 </div>

@@ -2,7 +2,7 @@ import * as React from "react"
 import logo from "../../../../static/logo.png"
 
 const Logo = () => (
-  <img src={logo} alt="CMU Poker Club Logo" style={{height: 150, width: 150}}/>
+  <img src={logo} alt="CMU Poker Club Logo" style={{height: "100%", width: "100%"}}/>
   // <svg viewBox="0 0 150 150">
   //   <title>LekoArts</title>
   //   <path
