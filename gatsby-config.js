@@ -13,7 +13,7 @@ module.exports = {
     siteUrl: `https://cmupoker.club`,
     siteDescription: `Poker club at Carnegie Mellon University`,
     siteLanguage: `en`,
-    siteImage: `/logo.jpg`,
+    siteImage: `/logo.png`,
     author: `David Krajewski`,
   },
   plugins: [
@@ -51,7 +51,7 @@ module.exports = {
       options: {
         name: `CMU Poker Club`,
         short_name: `upc`,
-        description: `.`,
+        description: `Poker club at Carnegie Mellon University.`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
