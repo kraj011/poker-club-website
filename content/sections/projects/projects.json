@@ -2,46 +2,114 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "",
+      "title": "SIG Susquehanna",
+      "description": "SIG is a global quantitative trading firm founded with a growth mindset and an analytical approach to decision making. As one of the largest proprietary trading firms in the world, SIG benefits the financial markets by providing liquidity and ensuring competitive prices for buyers and sellers. SIG brings together the brightest minds, the best technology, and an expansive library of data to design and implement quantitative trading strategies that make us leaders in the financial markets.",
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/sponsors/sig-logo.png",
+        "alt": "Logo",
+        "linkTo": "https://sig.com/"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://sig.com/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "",
+      "title": "Jump Trading",
+      "description": "",
+      "tags": [],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/sponsors/jump-logo.png",
+        "alt": "Logo",
+        "linkTo": "https://www.jumptrading.com/"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "type": "external",
+          "url": "https://www.jumptrading.com/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "Citadel",
+      "description": "",
+      "tags": [],
+      "image": {
+        "src": "../../images/sponsors/citadel-logo.png",
+        "alt": "Logo",
+        "linkTo": "https://www.citadel.com/"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.citadel.com/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "Jane Street",
+      "description": "",
+      "tags": [],
+      "image": {
+        "src": "../../images/sponsors/js-logo.png",
+        "alt": "Logo",
+        "linkTo": "https://www.janestreet.com/"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.janestreet.com/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "Hudson River Trading",
+      "description": "",
+      "tags": [],
+      "image": {
+        "src": "../../images/sponsors/hrt-logo.png",
+        "alt": "Logo",
+        "linkTo": "https://www.hudsonrivertrading.com/"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.hudsonrivertrading.com/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "",
+      "title": "IMC",
+      "description": "",
+      "tags": [],
+      "image": {
+        "src": "../../images/sponsors/imc-logo.png",
+        "alt": "Logo",
+        "linkTo": "https://www.imc.com/us/"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.imc.com/us/"
         }
       ]
     }
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "Visit on Github",
     "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
   }

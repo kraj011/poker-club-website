@@ -11,16 +11,27 @@ import {
 } from "gatsby-theme-portfolio-minimal";
 
 export default function IndexPage() {
+
+  React.useState(() => {
+    // This is super janky but it gets the job done and we can guarantee the Twitter label is loaded
+    let interval = setInterval(() => {
+      let twitterButton = document.querySelector('[aria-label="Twitter"]');
+      if(twitterButton) {
+        twitterButton.innerHTML = 'Instagram';
+        clearInterval(interval);
+      }
+    }, 200)
+  }, [])
+
+
   return (
     <>
-      <Seo title="Gatsby Starter for Portfolio Minimal" />
-      <Page useSplashScreenAnimation>
+      <Seo title="CMU Poker Club" />
+      <Page>
         <HeroSection sectionId="hero" />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
-        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
-        <InterestsSection sectionId="details" heading="Details" />
-        <ProjectsSection sectionId="features" heading="Built-in Features" />
-        <ContactSection sectionId="github" heading="Issues?" />
+        <AboutSection sectionId="about" heading="About The Club" />
+        <ProjectsSection sectionId="sponsors" heading="Sponsors" />
+        <ContactSection sectionId="contact" heading="Contact" />
       </Page>
     </>
   );

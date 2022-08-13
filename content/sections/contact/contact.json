@@ -1,13 +1,13 @@
 {
-  "name": "Gatsby Starter For Portfolio Minimal",
-  "email": "example@mail.com",
-  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "name": "Eric Zheng and David Krajewski",
+  "email": "cmupokerclub@gmail.com",
+  "description": "If you would like more information, reach out to our official email:",
   "image": {
-    "src": "../../images/favicon.png",
+    "src": "../../images/logo.png",
     "alt": "Gatsby Logo"
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": ["Mail"],
     "showIcons": true
   }
 }
