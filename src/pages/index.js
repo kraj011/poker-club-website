@@ -17,9 +17,23 @@ export default function IndexPage() {
     let interval = setInterval(() => {
       let twitterButton = document.querySelector('[aria-label="Twitter"]');
       if(twitterButton) {
-        twitterButton.innerHTML = 'Instagram';
         clearInterval(interval);
       }
+
+      let behanceButton = document.querySelector('[aria-label="Behance"]');
+      if(behanceButton) {
+        behanceButton.innerHTML = 'Join Club';
+      }
+
+      let mediumButton = document.querySelector('[aria-label="Medium"]');
+      if(mediumButton) {
+        mediumButton.innerHTML = 'Join Discord';
+      }
+
+      if(mediumButton && behanceButton & twitterButton) {
+        clearInterval(interval);
+      }
+
     }, 200)
   }, [])
 
