@@ -27,7 +27,7 @@ export default function IndexPage() {
 
       let mediumButton = document.querySelector('[aria-label="Medium"]');
       if(mediumButton) {
-        mediumButton.innerHTML = 'Join Discord';
+        mediumButton.innerHTML = 'Discord';
       }
 
       if(mediumButton && behanceButton & twitterButton) {
