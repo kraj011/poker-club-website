@@ -17,7 +17,7 @@ export default function IndexPage() {
     let interval = setInterval(() => {
       let twitterButton = document.querySelector('[aria-label="Twitter"]');
       if(twitterButton) {
-        clearInterval(interval);
+        twitterButton.innerHTML = 'Instagram';
       }
 
       let behanceButton = document.querySelector('[aria-label="Behance"]');
