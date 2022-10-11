@@ -8,7 +8,7 @@
     "avatar": "../content/images/logo.png",
     "social": {
       "instagram": "https://instagram.com/carnegiepokerclub",
-      "mail": "mailto:cmupokerclub@gmail.com",
+      "mail": "mailto:pokerclub@andrew.cmu.edu",
       "twitter": "https://instagram.com/carnegiepokerclub",
       "behance": "https://tartanconnect.cmu.edu/poker/club_signup",
       "medium": "https://discord.gg/eKshDpMFH4"
@@ -19,8 +19,7 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Sponsors", "url": "/#sponsors" },
-        { "label": "Officers", "url": "/#officers" }
+        { "label": "Sponsors", "url": "/#sponsors" }
       ],
       "ctaButton": {
         "openNewTab": false,
